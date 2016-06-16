@@ -50,3 +50,9 @@ table {
   color: orange;
   font-weight: 2400;
 }
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
