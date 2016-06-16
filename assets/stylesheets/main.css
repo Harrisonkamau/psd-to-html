@@ -47,12 +47,67 @@ table {
 }
 
 .primary-nav h1{
-  color: orange;
-  font-weight: 2400;
+  color: yellow;
+  font-weight: 400;
+  font-size: 60px;
 }
-.container {
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  /*border-top: 4px solid #648880;*/
+  padding: 40px 0 22px 0;
+  float: left;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.primary-nav {
+  /*font-size: 14px;*/
+  font-weight: 400;
+  background-color: black;
+}
+.tagline {
+  margin: 40px 0 22px 0;
+  float: right;
+}
+.logo {
+  float: left;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+}
+.primary-header a,
+.primary-footer a {
+  color: white;
+  text-decoration: none;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #ff5722;
+}
+.primary-header{
+  border-top: 4px solid white;
+  top:100px;
+  left:40px;
+  bottom: 20px;
+  width:100px;
+  height:100px;
+  background:#424242;
+}
+.container{
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
   width: 960px;
 }
