@@ -71,6 +71,66 @@ body {
   color: #888;
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.img-bg {
+    margin-top: 5px;
+    background-image: url("../images/big_img.jpg");
+    width: 600px;
+    height: 266px;
+    background-repeat: no-repeat;
+}
+
+.img-hdg {
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Droid Serif', serif;
+}
+
+.big-image {
+    background: #fff;
+    border: 1px solid transparent;
+    padding-top: 0px;
+    padding: 0px;
+    height: auto;
+    top: 40px;
+    padding-left: 44px;
+}
+
+.big-image h3{
+    font-weight: bolder;
+    color: #58585B;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.big-image p{
+    font-weight:bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #b5b5b5;
+}
+.details{
+  text-decoration: none;
+  border-radius: 30px;
+  background: #343539;
+  color: #F3F2ED;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 8px 25px;
+  position: relative;
+}
+
+.blog {
+    background: #fff;
+    border: 1px solid transparent;
+    height: auto;
+    top: 40px;
+    padding-left: 44px;
+}
 .primary-nav {
   /*font-size: 14px;*/
   font-weight: 400;
@@ -115,26 +175,7 @@ body {
   width: 960px;
   background-size: container;
 }
-.big-image{
-  width:100px; /*width of your image*/
-  height:100px; /*height of your image*/
-  padding-left: 44px;
 
-}
-.big-image em{
-  font-style:italic;
-  /*font-size: 17px;*/
-}
-.big-image img{
-  /*display:block;*/
-  /*height:600px;*/
-  width:600px;
-  /*margin-bottom:20px;*/
-  /*left: 40px;*/
-  /*width: 700px;*/
-  /*display:inline;*/
-  /*background-clip: content-box;*/
-}
 .blog p{
   color: grey;
 }
@@ -143,22 +184,16 @@ body {
   font-weight: bold;
   color: dark grey;
 }
-.inside-para{
-  padding-left: 50px;
-  font-size: 25px;
-}
-.email{
-  font-size: 10px;
+
   /*border-top: 1px solid #648880;*/
   /*border-bottom: 1px solid #648880;*/
-}
+/*}
 .italicize{
   font-family: "Droid Serif";
 }
 .blog{
-  top: 40px;
-  padding-left: 44px;
-}
+
+}*/*/
 .btn-primary{
   background-color: black;
   color: white;
@@ -242,4 +277,5 @@ new_row{
   border-bottom: 10px solid #648880;
   border-width: 10px;
   border-color: #f9fbe7;
+  padding-right: 2px 0px;
 }
