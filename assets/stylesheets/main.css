@@ -179,6 +179,9 @@ body {
   background: #fff;
   padding: 66px 0 44px 0;
 }
+new_row{
+  min-width: 960px;
+}
 .new_row {
   background: #fff;
   padding: 66px 0 44px 0;
@@ -238,5 +241,5 @@ body {
   border-top: 1px solid #648880;
   border-bottom: 10px solid #648880;
   border-width: 10px;
-  border-color: #f3e5f5;
+  border-color: #f9fbe7;
 }
