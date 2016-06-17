@@ -75,19 +75,19 @@ body {
   /*font-size: 14px;*/
   font-weight: 400;
   background-color: black;
+  /*padding: 1px 0 1px 0;*/
 }
 .tagline {
   margin: 40px 0 22px 0;
   float: right;
 }
 .logo {
-  float: left;
+  /*float: left;*/
   font-size: 48px;
   font-weight: bold;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 40px 0 22px 0;
-  text-transform: uppercase;
+  /*padding: 40px 0 0 0;*/
 }
 .primary-header a,
 .primary-footer a {
@@ -108,6 +108,54 @@ body {
   background:#424242;
 }
 .container{
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  padding-left: 44px;
+  margin-left: 44px;
+  /*margin-right: 10px;*/
   width: 960px;
+  background-size: container;
+}
+.big-image{
+  width:100px; /*width of your image*/
+  height:100px; /*height of your image*/
+  padding-left: 44px;
+
+}
+.big-image em{
+  font-style:italic;
+  /*font-size: 17px;*/
+}
+.big-image img{
+  /*display:block;*/
+  /*height:600px;*/
+  width:600px;
+  /*margin-bottom:20px;*/
+  /*left: 40px;*/
+  /*width: 700px;*/
+  /*display:inline;*/
+  /*background-clip: content-box;*/
+}
+.blog p{
+  color: grey;
+}
+.blog h1{
+  padding-top: 18px;
+  font-weight: bold;
+  color: dark grey;
+}
+.inside-para{
+  padding-left: 50px;
+  font-size: 25px;
+}
+.email{
+  font-size: 10px;
+  /*border-top: 1px solid #648880;*/
+  /*border-bottom: 1px solid #648880;*/
+}
+.italicize{
+  font-style: serif;
+}
+.blog{
+  top: 40px;
+  padding-left: 44px;
 }
