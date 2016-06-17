@@ -159,9 +159,22 @@ body {
   top: 40px;
   padding-left: 44px;
 }
-.btn{
+.btn-primary{
   background-color: grey;
   color: white;
   border-radius: 25px 30px;
   /*padding: 1px 4px 0 3px;*/
+}
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row {
+  background: #fff;
+  padding: 66px 0 44px 0;
 }
