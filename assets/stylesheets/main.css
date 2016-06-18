@@ -288,7 +288,7 @@ new_row{
     width: 600px;
 }
 .space p{
-    padding: 10px;
+    padding-right: 10px;
     background: #7AFF4C;
     color: #fff;
     line-height: 30px;
